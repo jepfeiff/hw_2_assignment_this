@@ -1,134 +1,158 @@
-html {box-sizing: border-box;
+
+* {
+  box-sizing: border-box;
 }
 
-
-* {font-family: 'Open Sans', sans-serif;
-} 
-
-body {background-color: #f0efef;
-	border: 12px;
+body {
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
 }
 
-
-header {border: black;
-	height: 78%;
-	width: 69%;
-	margin: 40px;
-	background-image: url("header_bg.jpg");
-	margin-right: 100%;
-	margin-top: 67px;
-	margin-left: 12px;
-	padding: 96px;
+.firstcontainer {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-h1 {
-	color: white;
-	font-size: 38px;
-
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-h2 {font-weight: bold 800 20px;
-	text-align: center;
-	font-size: 27px;
-	color: white;
+.relaxrlogo {
+  font-size: 48px;
+  font-weight: 800;
 }
 
-h3 {font-weight: bold 600 20px;
-	font-size: 25px;
-	color:#033048 
+header {
+  background: #033048;
+  padding: 25px;
+  overflow: hidden;
+}
+header .relaxrlogo {
+  color: #fff;
+  float: left;
 }
 
-h4 {color:  #121212;
-}	
-
-article {padding-bottom: 23px;
-		border-width:34px;
-		background-color: white;
-
-
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 24px;
+}
+header nav ul li a {
+  color: #f9e42e;
 }
 
-p {color: #121212;
-
-
+#picturebit {
+  height: 700px;
+  background: url(header_bg.jpg) no-repeat top center #131e27;
+  padding-top: 32px;
 }
 
-ul {color: #121212; 
-	text-align: justify-all;
-
+#picturebit .relaxrlogo {
+  color: #fff;
+}
+#picturebit h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+  margin: 120px 0 90px;
+  font-weight: 600;
+}
+.button {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.yel {
+  background: #f9e42e;
+  color: #033048;
+}
+.blue {
+  background: #033048;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+}
+#benefits {
+  padding: 110px 10 85px;
+  float-right: 45px;
+}
+h3 {
+  color: #033048;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#benefits p, #benefits ul {
+  width: 632px;
+}
+#benefits ul {
+  list-style: disc;
+  margin: 30px 0 0 80px;
 }
 
-.box {background: #f9e42e;
-	border-style: dotted black 40px;
-	text-align: center;
-	font-weight: bold 900 20px
-	color: black 90px;
-	border-radius: 5px;
-	width: 25%;
-	margin-left: 36%;
-	padding: 25px;
-	padding-right: 25px;
-} 
-
-ul {font-weight: bold 900 13px;
-
+.testimonial {
+  background: url(testimonial_bg.jpg) no-repeat top center #071324;
+  padding: 70px 0 70px;
+  color: #fff;
 }
-
 blockquote {
-font-style: italic;
-text-align: center;
-background-image: url("testimonial_bg.jpg");
-padding: 12%;
-color: white;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 76%;
+  margin: 0 auto;
+}
+blockquote span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
 }
 
-span { padding: 30px;
-	margin-right: 39px;
-	padding-right: 90px;
-
-
-} 
-
-h5 {
-font-weight: bold 600;
-text-align: center;
-
+#bottombit {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
 }
 
-a {background: #033048;
-	border-spacing: 5px;
-	font-weight: bold 900 12px;
-	border-radius: 5px;
-	color: white;
-	border: solid black;
-	margin: 46.3%;
-	text-align: center;
-
-} 
-
-.box3 {  
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+footer .relaxrlogo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+footer p {
+  font-size: 9px;
+  color: #fff;
+  font-weight: 600;
 }
 
-.article1 {font-weight: bold 600 13px;
 
-}
 
-aside {color:  #f9e42e;
-	font-weight: bold 900 24px;
-	text-align: center;
-	font-size: 30px;
-	font-weight: bolder;
-	background-color: black;
-	margin: 56px;
-	height: 56%;
-
-}
-
-.pics {text-align: center;
-	padding-right: 15px;
-
-}
-
-footer {font-size: 12px;
-	text-align: center;
- }
