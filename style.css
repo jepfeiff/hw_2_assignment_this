@@ -1,0 +1,134 @@
+html {box-sizing: border-box;
+}
+
+
+* {font-family: 'Open Sans', sans-serif;
+} 
+
+body {background-color: #f0efef;
+	border: 12px;
+}
+
+
+header {border: black;
+	height: 78%;
+	width: 69%;
+	margin: 40px;
+	background-image: url("header_bg.jpg");
+	margin-right: 100%;
+	margin-top: 67px;
+	margin-left: 12px;
+	padding: 96px;
+}
+
+h1 {
+	color: white;
+	font-size: 38px;
+
+}
+
+h2 {font-weight: bold 800 20px;
+	text-align: center;
+	font-size: 27px;
+	color: white;
+}
+
+h3 {font-weight: bold 600 20px;
+	font-size: 25px;
+	color:#033048 
+}
+
+h4 {color:  #121212;
+}	
+
+article {padding-bottom: 23px;
+		border-width:34px;
+		background-color: white;
+
+
+}
+
+p {color: #121212;
+
+
+}
+
+ul {color: #121212; 
+	text-align: justify-all;
+
+}
+
+.box {background: #f9e42e;
+	border-style: dotted black 40px;
+	text-align: center;
+	font-weight: bold 900 20px
+	color: black 90px;
+	border-radius: 5px;
+	width: 25%;
+	margin-left: 36%;
+	padding: 25px;
+	padding-right: 25px;
+} 
+
+ul {font-weight: bold 900 13px;
+
+}
+
+blockquote {
+font-style: italic;
+text-align: center;
+background-image: url("testimonial_bg.jpg");
+padding: 12%;
+color: white;
+}
+
+span { padding: 30px;
+	margin-right: 39px;
+	padding-right: 90px;
+
+
+} 
+
+h5 {
+font-weight: bold 600;
+text-align: center;
+
+}
+
+a {background: #033048;
+	border-spacing: 5px;
+	font-weight: bold 900 12px;
+	border-radius: 5px;
+	color: white;
+	border: solid black;
+	margin: 46.3%;
+	text-align: center;
+
+} 
+
+.box3 {  
+}
+
+.article1 {font-weight: bold 600 13px;
+
+}
+
+aside {color:  #f9e42e;
+	font-weight: bold 900 24px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+	background-color: black;
+	margin: 56px;
+	height: 56%;
+
+}
+
+.pics {text-align: center;
+	padding-right: 15px;
+
+}
+
+footer {font-size: 12px;
+	text-align: center;
+ }
